@@ -1,0 +1,19 @@
+body {
+	--active: 0;
+	background: hsl(
+		260
+		calc(var(--active) * 97%)
+		6%
+	);
+	display: grid;
+	place-items: center;
+	min-height: 50vh;
+	font-family: system-ui, sans-serif;
+	transition: background var(--transition);
+	overflow: hidden;
+}
+
+h1 {
+  color: white;
+  
+}
